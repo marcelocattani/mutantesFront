@@ -1,0 +1,37 @@
+.opciones  {
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.opciones .btn {
+    transition: all .8s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+table tbody tr.mutante:hover{
+    background-color: #ff3f3c;
+}
+
+table tbody tr.noMutante:hover{
+    background-color: #419dff;
+}
+
+.mutante {
+    background-color: #e0826f;
+}
+
+.noMutante {
+    background-color: #6fc5e0;
+}
+
+.acciones button {
+    margin-right: 10px;
+}
+
+.card {
+    background-color: gray;
+    color: white;
+}

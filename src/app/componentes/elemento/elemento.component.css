@@ -1,0 +1,9 @@
+.comandos .row {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.card {
+    background-color: gray;
+    color: white;
+}

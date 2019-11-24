@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="comandos">
+            <div class="row">
+                    <div class="col-1"></div>
+                    <button type="button" class="btn btn-warning col-6" (click) = "goHome()">Volver</button>
+            </div>
+    </div>
+    <div class="tabla">
+        <table class="table">
+                <thead>
+                    <tr>        
+                    <th scope="col">Cantidad de Mutantes</th>
+                    <th scope="col">Cantidad de Humanos</th>
+                    <th scope="col">Ratio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>            
+                    <td>{{ratio.count_mutant_dna}}</td>
+                    <td>{{ratio.count_human_dna}}</td>
+                    <td>{{(ratio.ratio != 'Infinity')? ratio.ratio : "La cantidad de Mutantes es Absoluta"}}</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+    <br>
+    <div class="footer">
+                <div class="card">
+                    <div class="card-header">
+                      Proyecto Global Programacion III
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Elaborado completamente por CATTANI, Marcelo Omar</h5>
+                      <p class="card-text">Proyecto elaborado para global de Programacion III <br> 
+                      Tec. Sup. En Programacion /UTN Facultad Regional Mendoza <br>
+                      Profesor: Alberto Cortez <br>
+                    DATE: Nov - 2019</p>
+                      <a href="https://github.com/marcelocattani" class="btn btn-primary">Conoce Mi GitHub</a>
+                    </div>
+                  </div>
+            </div>
+</div>

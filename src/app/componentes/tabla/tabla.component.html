@@ -1,0 +1,52 @@
+<div class="container-fluid">        
+        <div class="row opciones">            
+            <button type="button" class="btn btn-success col-3" (click) ="agregar()">Agregar</button>
+            <div class="col-1"></div>
+            <button type="button" class="btn btn-warning col-4" (click) = "goConsulta()">Consulta Rapida</button>
+            <div class="col-1"></div>
+            <button type="button" class="btn btn-info col-3" (click) = "goRatio()">Ratio</button>
+        </div>
+        
+        <div>
+        
+            <table class="table">
+                <thead>
+                  <tr>        
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">ADN</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Acciones</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor = "let persona of personas" [ngClass] ="{'mutante' : persona.mutante, 'noMutante' : !persona.mutante}">            
+                    <td>{{persona.nombre}}</td>
+                    <td>{{persona.apellido}}</td>
+                    <td>{{persona.cadena}}</td>
+                    <td>{{(persona.mutante)? "Mutante" :"Humano"}}</td>
+                    <td class="acciones">
+                        <button type="button" class="btn btn-warning" (click)="update(persona.id)">Editar</button>
+                        <button type="button" class="btn btn-danger"(click)="delete(persona.id)">Eliminar</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        
+        </div>
+        <div class="footer">
+            <div class="card">
+                <div class="card-header">
+                  Proyecto Global Programacion III
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Elaborado completamente por CATTANI, Marcelo Omar</h5>
+                  <p class="card-text">Proyecto elaborado para global de Programacion III <br> 
+                  Tec. Sup. En Programacion /UTN Facultad Regional Mendoza <br>
+                  Profesor: Alberto Cortez <br>
+                DATE: Nov - 2019</p>
+                  <a href="https://github.com/marcelocattani" class="btn btn-primary">Conoce Mi GitHub</a>
+                </div>
+              </div>
+        </div>
+</div>

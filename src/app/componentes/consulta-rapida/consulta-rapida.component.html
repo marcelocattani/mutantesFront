@@ -1,0 +1,33 @@
+<div class="container-fluid">
+    <div class="comandos">
+        <div class="row">
+                <div class="col-1"></div>
+                <button type="button" class="btn btn-warning col-6" (click) = "goHome()">Volver</button>
+        </div>
+    </div>
+    <div class="formulario">
+            <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1" >ADN</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="ADN" aria-label="adn" aria-describedby="basic-addon1" [(ngModel)]="cadenaTemporal">
+            </div>
+            <button type="button" class="btn btn-success col-3 col-12" (click) ="consultar()" >Consultar</button>
+    </div>
+    <br>
+    <div class="footer">
+                <div class="card">
+                    <div class="card-header">
+                      Proyecto Global Programacion III
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Elaborado completamente por CATTANI, Marcelo Omar</h5>
+                      <p class="card-text">Proyecto elaborado para global de Programacion III <br> 
+                      Tec. Sup. En Programacion /UTN Facultad Regional Mendoza <br>
+                      Profesor: Alberto Cortez <br>
+                    DATE: Nov - 2019</p>
+                      <a href="https://github.com/marcelocattani" class="btn btn-primary">Conoce Mi GitHub</a>
+                    </div>
+                  </div>
+            </div>
+</div>
