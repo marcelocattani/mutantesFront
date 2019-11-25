@@ -2,26 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
-## Development server
+## Creador
+CATTANI, Marcelo Omar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+##Finalidad
+Proyecto Global para Programación III
+Profesor: Alberto Cortez
+Fecha: Nov - 2019
 
-## Code scaffolding
+##Descripcion 
+Frontend del proyecto Mutantes. El proyecto consiste en un Backend en Spring [VER BACKEND] (https://github.com/marcelocattani/mutanteBack) que verifica a partir de una cadena de Adn si un humano es Mutante o No. Este Frontend realizado en Angular muestra todos los registros de la Base de datos, agrega nuevos, actualiza, y elimina. A su vez contiene funciones de Consulta Rapida y Ratios
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## MI GITHUB
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Mi GitHub [MARCELO CATTANI](https://github.com/marcelocattani).
